@@ -164,6 +164,3 @@ Pick **one**:
 * Add “receipt printing” (list items + subtotal + points earned)
 * Add a “VIP Day” boolean toggle that changes bonus behavior
 
----
-
-If you want, I can also rewrite this as a **student-facing rubric** (Beginning/Developing/Proficient/Advanced) so you can grade faster.
