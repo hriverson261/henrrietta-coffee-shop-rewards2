@@ -5,10 +5,10 @@ public class Customer {
     private String email;
     private int drinksPurchased;
 
-    public Customer(){
+    public Customer(String name, String email) {
         this.name = name;
         this.email = email;
-        this.drinksPurchased = drinksPurchased;
+        this.drinksPurchased = 0;
     }
 
     // Get the customer name, phone number, # of points
@@ -20,7 +20,7 @@ public class Customer {
         return email;
     }
 
-    public int getDrinksPurchased(){
+    public int getDrinksPurchased() {
         return drinksPurchased;
     }
 
@@ -29,17 +29,14 @@ public class Customer {
         this.name = name;
     }
 
-    public void setEmail(String phoneNumber){
+    public void setEmail(String phoneNumber) {
         this.email = phoneNumber;
     }
 
-    public void setDrinksPurchased(int drinksPurchased){
+    public void setDrinksPurchased(int drinksPurchased) {
         this.drinksPurchased = drinksPurchased;
     }
 
-    public static int pointsEarned(int drinksPurchased){
-        if
 
-        return 1;
-    }
+
 }
